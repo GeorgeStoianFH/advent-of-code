@@ -7,5 +7,5 @@ export const readMatrixFromFile = (path: string): string[][] => {
     .trim()
     .split(/\r?\n/)
     .filter((line: string) => line.trim().length > 0)
-    .map((line) => line.trim().split(' '));
+    .map((line) => line.trim().split(''));
 };
