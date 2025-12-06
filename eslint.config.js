@@ -30,6 +30,7 @@ export default tseslint.config(
       '@typescript-eslint/prefer-nullish-coalescing': 'error',
       '@typescript-eslint/prefer-optional-chain': 'error',
       '@typescript-eslint/no-non-null-assertion': 'off',
+      '@typescript-eslint/prefer-for-of': 'off',
       'no-console': 'off',
       eqeqeq: ['error', 'always'],
       curly: ['error', 'all'],
